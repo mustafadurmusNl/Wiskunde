@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wiskunde lessen</title>
+<style>
+  :root { --bg:#f7f7f5; --fg:#1d1d1f; --muted:#6b6b70; --card:#fff; --line:#e3e3e0; --accent:#2a5bd7; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#161618; --fg:#ececee; --muted:#9a9aa0; --card:#202023; --line:#323236; --accent:#7ea2ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 16px; }
+  h1 { font-size:1.8rem; margin:0 0 4px; }
+  .sub { color:var(--muted); margin:0 0 32px; }
+  h2 { font-size:1.1rem; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); margin:32px 0 12px; }
+  ul { list-style:none; padding:0; margin:0; }
+  li { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px; margin-bottom:10px;
+       display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .les { font-weight:600; }
+  .pdf { font-size:.9rem; color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Wiskunde</h1>
+  <p class="sub">Lessen per klas</p>
+
+  <h2>VWO 2</h2>
+  <ul>
+    <li>
+      <a class="les" href="vwo2/lineare-formule-3-2/">3.2 De formule van een lijn opstellen</a>
+      <a class="pdf" href="vwo2/lineare-formule-3-2/docent.pdf">Docent (PDF)</a>
+    </li>
+  </ul>
+</main>
+</body>
+</html>
